@@ -38,7 +38,7 @@ print('Выделение датасета с инфой по учебе')
 data1_conf_exp=pd.json_normalize(data_1[1]['confirmed_resumes'][1]['educationItem'])
 print(data1_conf_exp.info())
 
-
+data1.to_csv("./data/raw_data.csv", index=False)
 
 
 #-----------------------------------------------------
